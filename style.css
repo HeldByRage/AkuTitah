@@ -1,0 +1,23 @@
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #FAF7F9;
+            color: #2B2327;
+        }
+
+        /* Smooth border & hover effect untuk kartu poster */
+        .poster-card {
+            background-color: #FFFFFF;
+            border: 1px solid #F0E4E9;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .poster-card:hover {
+            border-color: #F599C6;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(245, 153, 198, 0.18);
+        }
+
+        /* Modal active state */
+        .modal-active {
+            display: flex !important;
+        }
